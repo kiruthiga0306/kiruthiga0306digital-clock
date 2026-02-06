@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #1d2671, #c33764);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.clock-container {
+    background: black;
+    padding: 30px 50px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px cyan;
+}
+
+#clock {
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    color: cyan;
+}
+
+#date {
+    margin-top: 10px;
+    font-size: 18px;
+    color: lightgray;
+}
